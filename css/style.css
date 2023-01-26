@@ -1,0 +1,215 @@
+    @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+    * {
+        box-sizing: border-box;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    body {
+        background-color: #F9D195;
+    }
+    
+    .logo {
+        width: 350px;
+    }
+    
+    #navmenu a:hover {
+        color: #7cd2dd;
+    }
+    
+    .menu {
+        /* border: 2px solid #99E3EC; */
+        color: #693B1D;
+        text-transform: uppercase;
+        font-size: 18px;
+        /* font-family: 'Titillium Web', sans-serif; */
+        font-family: 'Courier Prime', monospace;
+        font-weight: 500;
+        border: 3px solid #99E3EC;
+        background-color: #fff;
+        padding: 10px 0px;
+    }
+    
+    .img {
+        height: 500px;
+    }
+    
+    .mini-pic img {
+        height: 220px;
+    }
+    
+    .star {
+        margin-top: -25px;
+        width: 45px;
+        margin-left: px;
+        border-radius: 50%;
+        background-color: #F9D195;
+    }
+    
+    .star-show {
+        display: none;
+    }
+    
+    .footer-section {
+        font-family: 'Courier Prime', monospace;
+        color: #693B1D;
+        letter-spacing: -0.8px;
+        word-spacing: -6px;
+    }
+    
+    .icons-color {
+        color: black;
+    }
+    /* .icons a {
+    text-decoration: underline;
+    margin-top: 2px;
+} */
+    
+    .icons a:hover {
+        color: #ffff;
+    }
+    
+    .btn-custom {
+        background-color: #733f1c;
+        color: white;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+        padding: 8px;
+        margin-top: 20px;
+    }
+    /* ABOUT STYLE */
+    
+    .btn-custom-2 {
+        background-color: #733f1c;
+        color: white;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+        margin-top: -10px;
+    }
+    
+    .h2-custom {
+        font-family: 'Courier Prime', monospace;
+    }
+    
+    .image {
+        height: 500px;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+    /* MENU STYLE */
+    
+    hr {
+        width: 10%;
+        justify-self: center;
+        align-self: center;
+        margin: 0 auto;
+        margin-top: 0.8rem;
+        background-color: #63b8c4;
+        opacity: 1;
+        border: 1.5px solid #99E3EC;
+    }
+    
+    .menu-text {
+        font-family: 'Courier Prime', monospace;
+        color: #693B1D;
+    }
+    
+    .menu-text h1 {
+        color: #99E3EC;
+    }
+    
+    .menu-text p {
+        font-size: 18px;
+    }
+    
+    .image-2 img {
+        width: 290px;
+        height: 290px;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+    
+    .flavor-text h3,
+    p,
+    span {
+        font-family: 'Titillium Web', sans-serif;
+        color: #693B1D;
+    }
+    
+    .flavor-text hr {
+        width: 80%;
+        justify-self: center;
+        align-self: center;
+        margin: 0 auto;
+        margin-top: 0.8rem;
+        background-color: #693B1D;
+        opacity: 1;
+        border: 1px solid #693B1D;
+    }
+    
+    .flavor-text p {
+        text-align: center;
+    }
+    
+    .flavor-text span {
+        font-family: 'Courier Prime', monospace;
+        font-size: 25px;
+    }
+    /* CONTACT STYLE */
+    
+    .contact .form-control {
+        border: 2px solid #A3DAD5;
+    }
+    
+    .btn-contact {
+        font-family: 'Courier Prime', monospace;
+        background-color: #A3DAD5;
+        color: #693B1D;
+        font-size: 25px;
+        float: right;
+        padding: 5px 25px;
+    }
+    
+    .map-show {
+        display: none;
+    }
+    /* INFO STYLE */
+    
+    .info-text {
+        font-family: 'Titillium Web', sans-serif;
+    }
+    
+    .info-text h2 {
+        color: #99E3EC;
+    }
+    
+    .info-text a {
+        color: black;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    
+    .info-text hr {
+        width: 30%;
+    }
+    
+    .info-text p {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .info-text p span {
+        color: black;
+        font-size: 20px;
+    }
+    
+    footer {
+        color: #693B1D;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-family: 'Courier Prime', monospace;
+        font-weight: 500;
+    }

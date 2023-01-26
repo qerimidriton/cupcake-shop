@@ -1,0 +1,38 @@
+ @media (max-width: 576px) {
+     .mini-pic img {
+         height: 100px;
+     }
+     .image {
+         height: 250px;
+     }
+     .text-custom {
+         text-align: justify;
+     }
+ }
+ 
+ @media (min-width: 991.98px) {
+     .star-show {
+         display: block;
+     }
+ }
+ 
+ @media (max-width: 767.98px) {
+     .m-custom {
+         margin: 20px 0px;
+     }
+     .btn-custom {
+         margin-top: -10px;
+     }
+     .map-show {
+         display: inline-block;
+     }
+ }
+ 
+ @media (max-width: 575.98px) {
+     .btn-contact {
+         float: right;
+         font-size: 20px;
+         padding: 0px 8px;
+         margin-bottom: 3px;
+     }
+ }
